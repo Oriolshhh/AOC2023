@@ -17,7 +17,6 @@ def getValue(line): # Funció que retorna el valor corresponent a la línia
         return 0
     first_digit = digits[0] # Obtenim el primer digit
     last_digit = digits[-1] # Obtenim l'ultim digit
-    print(first_digit + last_digit)
     return int(first_digit + last_digit) # Retornem el valor corresponent a la línia
 
 with open("day1/input", "r") as file:
