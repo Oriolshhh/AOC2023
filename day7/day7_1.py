@@ -66,7 +66,6 @@ def updateList(hands_list, new_hand):
             return
     hands_list.append(new_hand) # Si no hem afegit la ma a la llista, la afegim al final
 
-# The rest of the code remains the same
 with open("day7/input", "r") as file:
     document = file.readlines()
 
